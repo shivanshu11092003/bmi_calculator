@@ -101,8 +101,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="350dp"
         android:layout_height="100dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         app:cardCornerRadius="40dp"
+
 
         android:layout_marginLeft="10dp"
         tools:layout_editor_absoluteX="1dp"
@@ -122,9 +123,22 @@
             android:layout_height="wrap_content"
             android:id="@+id/result"
             android:gravity="center"
-            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
             android:layout_marginTop="30dp"
             android:text="0"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:layout_marginTop="65dp"
+            android:id="@+id/Colour"
+            android:gravity="center"
+            android:text="text"
+
+            android:textColor="@color/black"
+            android:textSize="20dp" />
 
 
     </androidx.cardview.widget.CardView>
